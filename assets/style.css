@@ -3,20 +3,28 @@
     text-align: center;
 }
 
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .container{
     width: 70%;
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
-    background-color: rgb(123, 126, 161);
+    background-color: rgb(54, 58, 95);
     padding: 10px;
     padding-bottom: 50px;
     border-radius: 10px;
 }
 .container:hover{
     background-color: rgb(103, 136, 146);
-    transition: 1s;
+    transition: 2s;
+    opacity: 0.7;
 }
 input{
     width: 300px; 
